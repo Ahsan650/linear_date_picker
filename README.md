@@ -136,4 +136,4 @@ This package is inspired by [flutter_linear_datepicker](https://pub.dev/packages
 
 ## Additional information
 
-For more information, issues, or contributions, please visit the [GitHub repository](https://github.com/Ahsan650/linear_date_picker).
+For more information, issues, or contributions, please visit the [GitHub repository](https://github.com/ahsan-creates/linear_date_picker).
