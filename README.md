@@ -130,6 +130,10 @@ LinearDatePicker(
 | `showMonthName` | `bool` | `false` | Whether to show month names instead of numbers |
 | `monthsNames` | `List<String>?` | `null` | Custom month names (requires 12 items) |
 
+## Credits
+
+This package is inspired by [flutter_linear_datepicker](https://pub.dev/packages/flutter_linear_datepicker) (version ^3.0.1).
+
 ## Additional information
 
 For more information, issues, or contributions, please visit the [GitHub repository](https://github.com/Ahsan650/linear_date_picker).

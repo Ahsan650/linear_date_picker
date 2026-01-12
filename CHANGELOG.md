@@ -10,3 +10,4 @@
   * Debounced date change callbacks
   * Custom month names support
   * Localization support
+* This package is inspired by [flutter_linear_datepicker](https://pub.dev/packages/flutter_linear_datepicker) (^3.0.1)
