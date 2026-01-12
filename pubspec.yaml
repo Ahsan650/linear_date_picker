@@ -1,6 +1,6 @@
 name: linear_date_picker
 description: A beautiful and customizable linear date picker widget for Flutter that displays month, day, and year in separate scrollable columns with a highlighted selection bar.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ahsan-creates/linear_date_picker
 repository: https://github.com/ahsan-creates/linear_date_picker
 

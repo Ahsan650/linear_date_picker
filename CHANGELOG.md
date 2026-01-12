@@ -1,3 +1,8 @@
+## 0.0.2
+
+* Added example app demonstrating date of birth picker with age calculation
+* Example includes custom decorations, month names, and styling
+
 ## 0.0.1
 
 * Initial release of Linear Date Picker

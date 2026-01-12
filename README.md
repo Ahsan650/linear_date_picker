@@ -20,7 +20,7 @@ Add this package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  linear_date_picker: ^0.0.1
+  linear_date_picker: ^0.0.2
 ```
 
 Then run:
