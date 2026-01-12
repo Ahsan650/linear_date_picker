@@ -132,4 +132,4 @@ LinearDatePicker(
 
 ## Additional information
 
-For more information, issues, or contributions, please visit the [GitHub repository](https://github.com/Ahsan650/linear_number_picker.git).
+For more information, issues, or contributions, please visit the [GitHub repository](https://github.com/Ahsan650/linear_date_picker).

@@ -1,3 +1,12 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release of Linear Date Picker
+* Features:
+  * Customizable linear date picker with separate scrollable columns for month, day, and year
+  * Support for date ranges with startDate and endDate
+  * Configurable initial date selection
+  * Customizable decorations, text styles, and labels
+  * Optional day column display
+  * Debounced date change callbacks
+  * Custom month names support
+  * Localization support

@@ -5,34 +5,89 @@ import 'package:flutter/material.dart';
 import 'date_parts.dart';
 import 'number_picker.dart';
 
+/// A beautiful and customizable linear date picker widget for Flutter.
+///
+/// This widget displays month, day, and year in separate scrollable columns
+/// with a highlighted selection bar. It supports date ranges, custom styling,
+/// and various configuration options.
+///
+/// Example:
+/// ```dart
+/// LinearDatePicker(
+///   dateChangeListener: (DateTime date) {
+///     print('Selected date: $date');
+///   },
+/// )
+/// ```
 class LinearDatePicker extends StatefulWidget {
+  /// Whether to show the day column. Defaults to `true`.
   final bool showDay;
+
+  /// Callback function called when the selected date changes.
+  ///
+  /// The callback receives the selected [DateTime] as a parameter.
   final Function(DateTime date) dateChangeListener;
 
+  /// The minimum selectable date. If null, defaults to 100 years ago.
   final DateTime? startDate;
+
+  /// The maximum selectable date. If null, defaults to current year.
   final DateTime? endDate;
+
+  /// The initially selected date. If null, defaults to current date.
   final DateTime? initialDate;
 
+  /// Decoration for the year column selection bar.
   final Decoration? yearDecoration;
+
+  /// Decoration for the month column selection bar.
   final Decoration? monthDecoration;
+
+  /// Decoration for the day column selection bar.
   final Decoration? dayDecoration;
 
+  /// Text style for column labels.
   final TextStyle? labelStyle;
+
+  /// Text style for the selected row in each column.
   final TextStyle? selectedRowStyle;
+
+  /// Text style for unselected rows in each column.
   final TextStyle? unselectedRowStyle;
 
+  /// Label text for the year column. Defaults to 'Year'.
   final String yearLabel;
+
+  /// Label text for the month column. Defaults to 'Month'.
   final String monthLabel;
+
+  /// Label text for the day column. Defaults to 'Day'.
   final String dayLabel;
 
+  /// Whether to show column labels. Defaults to `true`.
   final bool showLabels;
+
+  /// Width of each column in logical pixels. Defaults to `55.0`.
   final double columnWidth;
+
+  /// Whether to show month names instead of numbers. Defaults to `false`.
   final bool showMonthName;
 
+  /// Debounce duration for date change callbacks. Defaults to 200ms.
+  ///
+  /// This prevents the callback from being called too frequently during
+  /// rapid scrolling.
   final Duration? debounceDuration;
 
+  /// Custom month names list. Must contain exactly 12 items.
+  ///
+  /// If provided, these names will be used instead of the default month names
+  /// when [showMonthName] is `true`.
   final List<String>? monthsNames;
 
+  /// Creates a [LinearDatePicker] widget.
+  ///
+  /// The [dateChangeListener] parameter is required and must not be null.
   const LinearDatePicker({
     super.key,
     this.startDate,
