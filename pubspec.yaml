@@ -1,7 +1,7 @@
 name: linear_date_picker
 description: "A new Flutter package project."
 version: 0.0.1
-homepage: https://github.com/Ahsan650/linear_number_picker.git
+homepage: https://github.com/Ahsan650/linear_date_picker.git
 
 environment:
   sdk: ^3.10.4
